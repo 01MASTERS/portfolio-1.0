@@ -1,40 +1,25 @@
-# 🌟 Rittik Sharma's Portfolio
+# 🌟 Portfolio
 
 <div align="center">
 
   <!-- Logo -->
   <img src="public/images/logo.svg" alt="Portfolio Logo" width="120" height="120">
 
-### ✨ Student Developer | Chief Problem Solver | Solution Sorcerer
+### ✨ Full Stack Developer | Competitive Programmer | IIT Patna
 
 <kbd>My space on the web</kbd> showcasing modern web development with stunning dark aesthetics
-
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live%20Demo-9333ea?style=for-the-badge&logo=vercel&logoColor=white)
-[![MIT License](https://img.shields.io/badge/📄%20License-MIT-00D26A?style=for-the-badge)](https://opensource.org/license/mit)
 
 </div>
 
 ---
 
-## 📋 Table of Contents
 
-- [🎯 Overview](#-overview)
-- [✨ Features](#-features)
-- [🛠️ Tech Stack](#️-tech-stack)
-- [🎨 Design System](#-design-system)
-- [🚀 Quick Start](#-quick-start)
-- [⚙️ Customization](#️-customization)
-- [📸 Screenshots](#-screenshots)
-- [🔗 Connect](#-connect)
 
 ---
 
 ## 🎯 Overview
 
 A modern, responsive portfolio website built with **Next.js 15** and **React 19**, featuring stunning dark aesthetics and smooth animations. This project showcases advanced web development practices with a focus on performance, accessibility, and user experience.
-
-**🌐 Live Demo:** [rittiksharma.vercel.app](https://rittiksharma.vercel.app)
-**📱 GitHub:** [github.com/01MASTERS/An](https://github.com/01MASTERS/An)
 
 ## ✨ Features
 
@@ -52,38 +37,9 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 
 ## 🛠️ Tech Stack
 
-### **Frontend Framework**
-
-| Technology     | Version  | Purpose                  |
-| -------------- | -------- | ------------------------ |
-| **Next.js**    | `15.4.4` | React framework with SSR |
-| **React**      | `19.1.0` | UI library               |
-| **TypeScript** | `^5.0`   | Type-safe JavaScript     |
-
-### **Styling & UI**
-
-| Technology                   | Version    | Purpose                |
-| ---------------------------- | ---------- | ---------------------- |
-| **Tailwind CSS**             | `^3.4.17`  | Utility-first CSS      |
-| **Motion**                   | `^12.23.9` | Animation library      |
-| **Radix UI**                 | `^1.2.3`   | Headless UI components |
-| **Class Variance Authority** | `^0.7.1`   | Component variants     |
-
-### **Email & Communication**
-
-| Technology      | Version  | Purpose             |
-| --------------- | -------- | ------------------- |
-| **React Email** | `^0.3.2` | Email templates     |
-| **Nodemailer**  | `^7.0.5` | Email sending       |
-| **Sonner**      | `^2.0.6` | Toast notifications |
-
-### **Development Tools**
-
-| Technology       | Version    | Purpose               |
-| ---------------- | ---------- | --------------------- |
-| **ESLint**       | `^9.0`     | Code linting          |
-| **Autoprefixer** | `^10.4.21` | CSS vendor prefixes   |
-| **Critters**     | `^0.0.23`  | Critical CSS inlining |
+- **Frontend:** Next.js 15, React 19, TypeScript
+- **Styling:** Tailwind CSS, Motion, Radix UI
+- **Other:** React Email, Nodemailer
 
 ## 🎨 Design System
 
@@ -108,128 +64,12 @@ A modern, responsive portfolio website built with **Next.js 15** and **React 19*
 | **Nasalization** | Main headings         | 400     | Futuristic, bold display   |
 | **Quentine**     | Name, special text    | 400     | Elegant, signature style   |
 
-### **Visual Effects**
 
-| Effect             | CSS Properties                | Description              |
-| ------------------ | ----------------------------- | ------------------------ |
-| **Glass Morphism** | `backdrop-filter: blur(16px)` | Frosted glass appearance |
-| **Luxury Shadows** | `box-shadow: multiple layers` | Deep, rich shadow system |
-| **Neon Glow**      | `box-shadow: 0 0 20px purple` | Purple accent glows      |
-| **Shimmer**        | `linear-gradient animation`   | Subtle shine effects     |
-
-## 🚀 Quick Start
-
-### **Prerequisites**
-
-- Node.js 18+
-- npm/yarn/pnpm
-
-### **Installation**
-
-1. **Clone the repository**
-
-   ```bash
-   git clone https://github.com/01MASTERS/An.git
-   cd An
-   ```
-
-2. **Install dependencies**
-
-   ```bash
-   npm install
-   ```
-
-3. **Environment setup**
-
-   ```bash
-   cp .env.example .env.local
-   ```
-
-4. **Start development server**
-
-   ```bash
-   npm run dev
-   ```
-
-5. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
-
-### **Build Commands**
-
-| Command         | Description                             |
-| --------------- | --------------------------------------- |
-| `npm run dev`   | Start development server with Turbopack |
-| `npm run build` | Build for production                    |
-| `npm run start` | Start production server                 |
-| `npm run lint`  | Run ESLint checks                       |
-
-## ⚙️ Customization
-
-### **Personal Information**
-
-```typescript
-// src/constant/self.ts
-export const selfData = {
-  name: "Your Name",
-  jobTitle: "Your Title",
-  email: "your.email@domain.com",
-  // ... update all personal details
-};
-```
-
-### **Projects & Experience**
-
-| File                          | Purpose                |
-| ----------------------------- | ---------------------- |
-| `src/constant/projects.ts`    | Your project portfolio |
-| `src/constant/experience.ts`  | Work experience data   |
-| `src/constant/skillsData.tsx` | Technical skills       |
-
-### **Assets**
-
-| Asset Type          | Location                   | Description         |
-| ------------------- | -------------------------- | ------------------- |
-| **Logo**            | `public/images/logo.svg`   | Main logo           |
-| **Profile Picture** | `src/assets/images/me.png` | About section image |
-| **Resume**          | `public/docs/`             | PDF resume file     |
-| **Fonts**           | `src/assets/fonts/`        | Custom font files   |
-
-### **Styling**
-
-- **Colors:** Modify CSS custom properties in `src/app/globals.css`
-- **Fonts:** Update font configurations in `src/app/fonts.ts`
-- **Components:** Customize UI components in `src/components/ui/`
-
-## 📸 Screenshots
-
-> 🌟 **Dark Luxury Theme** - Experience the stunning dark aesthetics with purple accents
->
-> 🚀 **Lightning Fast** - Next.js 15 with Turbopack for optimal performance
->
-> 📱 **Fully Responsive** - Perfect on every device and screen size
-
-## 🔗 Connect
-
-<div align="center">
-
-| Platform         | Username                                                    | Link                         |
-| ---------------- | ----------------------------------------------------------- | ---------------------------- |
-| 🐙 **GitHub**    | [@01MASTERS](https://github.com/01MASTERS)                      | `https://github.com/01MASTERS` |
-| 💼 **LinkedIn**  | [Rittik Sharma](https://linkedin.com/in/rittik-sharmax)    | Professional Network         |
-| 📸 **Instagram** | [@Rittik.ii](https://instagram.com/Rittik.ii)                 | Creative Updates             |
-| 🐦 **Twitter**   | [@Rittik_ii](https://twitter.com/Rittik_ii)                   | Tech Thoughts                |
-| 📧 **Email**     | [rittik.work1@gmail.com](mailto:rittik.work1@gmail.com) | Direct Contact               |
-
-</div>
 
 ---
 
 <div align="center">
 
-**Built with ❤️ by [Rittik Sharma](https://rittiksharma.vercel.app)**
-
-_Student Developer | Chief Problem Solver | Solution Sorcerer_
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-rittiksharma.vercel.app-9333ea?style=for-the-badge)](https://rittiksharma.vercel.app)
+**Built with ❤️ by Rittik Sharma**
 
 </div>
