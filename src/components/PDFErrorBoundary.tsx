@@ -69,7 +69,7 @@ export class PDFErrorBoundary extends Component<Props, State> {
 
               <motion.a
                 href={this.props.pdfUrl}
-                download="Rittik_Sharma_resume.pdf"
+                download="Resume_rittik.pdf"
                 className="group relative px-6 py-3 rounded-xl overflow-hidden transition-colors duration-200 border border-secondary/30"
                 style={{
                   background: "hsl(var(--card) / 0.5)",

@@ -156,8 +156,8 @@ export function generateResumeStructuredData() {
     },
     dateModified: new Date().toISOString(),
     fileFormat: "application/pdf",
-    contentUrl: "https://rittiksharma.vercel.app/docs/Rittik_Sharma_Resume.pdf",
-    downloadUrl: "https://rittiksharma.vercel.app/docs/Rittik_Sharma_Resume.pdf",
+    contentUrl: "https://rittiksharma.vercel.app/docs/Resume_rittik.pdf",
+    downloadUrl: "https://rittiksharma.vercel.app/docs/Resume_rittik.pdf",
     keywords: [
       "Software Developer",
       "Full Stack Developer",

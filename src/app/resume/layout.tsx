@@ -42,7 +42,7 @@ export default function ResumeLayout({
     <>
       <link
         rel="preload"
-        href="/docs/Rittik_Sharma_resume.pdf"
+        href="/docs/Resume_rittik.pdf"
         as="fetch"
         type="application/pdf"
         crossOrigin="anonymous"
